@@ -1,0 +1,12 @@
+Ejercicio 2
+
+1 - SELECT nombre FROM usuarios ORDER BY nombre ASC;
+2 - SELECT count(nombre) as 'cantidad_mujeres' FROM usuarios WHERE SEXO = 'M';
+3 - SELECT count(nombre) as 'cantidad_rol', roles.DESCRIPCION FROM usuarios JOIN roles ON usuarios.ROLID = roles.ROLID GROUP BY roles.ROLID;
+4 - SELECT avg(edad) AS 'promedio_edad' FROM usuarios GROUP BY sexo;
+
+Ejercicio 3
+
+1 - Se ahorra $276
+2 - Se digitó 13 veces
+3 - La lata vacia pesa 500gr
